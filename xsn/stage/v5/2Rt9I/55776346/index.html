@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="x-rim-auto-match" content="none">
+    <meta id="metaDescription" name="description" content="">
+    <script>document.documentElement.setAttribute('data-useragent', navigator.userAgent);</script>
+    <title>Stage V5 | XIUMI</title>
+    <link rel="stylesheet" href="//inksci.com/xsn/styles/app/reader/a614e2.booklet.min.css">
+    <script id="__pre_data">window.injectedData          = window.injectedData || {};
+      injectedData.SYSTEM_SETTINGS = JSON.parse(decodeURIComponent("%7B%22templateRootPath%22%3A%22%2F%2Finksci.com%2Ftpls%22%2C%22addGAForShow%22%3A2%2C%22googleAdConfig%22%3A%7B%22intervalTimes%22%3A3%2C%22thresholdHistoryHits%22%3A10%2C%22thresholdCurrentHits%22%3A0%7D%7D"));
+      injectedData.showInfo        = JSON.parse(decodeURIComponent("%7B%22show_id%22%3A55776346%2C%22type%22%3A1%2C%22version%22%3A5%2C%22title%22%3A%22%22%2C%22desc%22%3A%22%22%2C%22cover%22%3Anull%2C%22loading_icon%22%3Anull%2C%22show_data_name%22%3A%22Z2xX%2F54bb32cb33af583ae1a9a2ae867f497d%22%2C%22show_data_url%22%3A%22%2F%2Finksci.com%2Fxmi%2Fsd%2FZ2xX%2F54bb32cb33af583ae1a9a2ae867f497d.json%3F_ver%3D1504520722000%22%2C%22show_url%22%3A%22http%3A%2F%2Fv.xiumi.us%2Fstage%2Fv5%2F2Rt9I%2F55776346%22%2C%22no_logo%22%3A0%2C%22no_advert%22%3A0%2C%22freeshow%22%3A0%2C%22traffic%22%3A976312%2C%22points%22%3A672%2C%22history_hits%22%3A15%2C%22cur_hits%22%3A84%2C%22hit_count%22%3A99%2C%22high_peak%22%3A50000%2C%22created_at%22%3A%222017-09-04T08%3A56%3A18.000Z%22%2C%22updated_at%22%3A%222017-09-04T10%3A25%3A22.000Z%22%2C%22owner%22%3A%7B%22nickname%22%3A%22%E5%A2%A8%E4%B9%8B(%E5%91%A8%E6%96%B0)%22%2C%22avatar_url%22%3A%22http%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FicicMFqvtG0haab1d3SicUS9gjSOLUqXR1hvA5iaG1ADddJe1oHW5zjo4HWSueRDcm2AKz1ZAbEkePiarXnIMfuNCWQ%2F0%22%2C%22brand_name%22%3Anull%2C%22agreement_access%22%3A1%2C%22level%22%3A1%2C%22level_remain_life%22%3A0%7D%7D"));
+      injectedData.wxSign          = JSON.parse(decodeURIComponent("%7B%22appId%22%3A%22wxf0166ffbefb1f760%22%2C%22timestamp%22%3A1504541419%2C%22nonceStr%22%3A%22AbY6Uy4amcPiQUFc%22%2C%22signature%22%3A%220695f2059698b80e57ad1240ab3d8bbaece06549%22%7D"));
+      injectedData.advertList      = JSON.parse(decodeURIComponent("%5B%5D"));</script>
+    <script id="__delete_pre_data">var __pre_data = document.getElementById('__pre_data');
+      if (!!__pre_data) {
+        __pre_data.parentNode.removeChild(__pre_data);
+      }
+      var __pre_connect = document.getElementById('__pre_connect');
+      if (!!__pre_connect) {
+        __pre_connect.parentNode.removeChild(__pre_connect);
+      }
+      var __delete_pre_data = document.getElementById('__delete_pre_data');
+      if (!!__delete_pre_data) {
+        __delete_pre_data.parentNode.removeChild(__delete_pre_data);
+      }</script>
+  </head>
+  <body class="tn-transition-end block-overscroll tn-platform-class"
+  ng-controller="BookletRootReaderController">
+    <div id="shareImage" style="display: none;">
+      <img src="">
+    </div>
+    <div class="reader-booklet-container" tn-distortion-page-for-keyboard-in-android="true">
+      <div class="tn-reader-booklet" tn-opera-house
+      tn-atom-context="{ type: 'booklet', inReader: true }"
+      ng-controller="BookletReaderController">
+        <article class="dock-loader tn-scene-booklet tn-show-root tn-vertical-sliding-turner"
+        tn-solo-comp-loader="cubes[0]"
+        tn-bind-comp-tpl-id="reader_booklet-cp:sys/loader-fullscreen-booklet"
+        tn-comp-role="root" ng-cloak></article>
+        <div class="loading-progress" ng-show="showLoading">
+          <span class="item"></span>
+          <span class="item"></span>
+          <span class="item"></span>
+        </div>
+        <div class="global-docker" ng-show="isReady" ng-cloak>
+          <div class="nav-up-arrow" ng-click="onNavArrowClicked()"
+          ng-show="!operaStatus.turning && !operaStatus.isAtLastPage && operaStatus.turningMatrix.downward"
+          ng-cloak>
+            <img src="http://statics.xiumi.us/xsn/stc/apps/reader/assets/up_arrow.png">
+          </div>
+          <a class="report-button" ng-href="/report/{{showInfo.show_id}}" ng-show="showLogo && !operaStatus.turning && !operaStatus.isAtAdvertPage && operaStatus.isAtLastPage && !!operaStatus.turningMatrix.downward" ng-cloak></a>
+          <a class="xiumi-support-info" ng-cloak
+          ng-show="showLogo && !operaStatus.turning && !operaStatus.isAtAdvertPage && operaStatus.isAtLastPage && !!operaStatus.turningMatrix.downward">
+            <div class="inner text-center"></div>
+          </a>
+          <div class="player-button" ng-class="{ 'player-button-stop': !bgmState.playing }"
+          ng-show="!!bgmState.exist" ng-click="onBgMusicClicked()" ng-cloak></div>
+        </div>
+      </div>
+      <div class="loading-mask" ng-show="loadingOutLink" ng-cloak>
+        <div class="loading-progress frame-loading-progress">
+          <span class="item"></span>
+          <span class="item"></span>
+          <span class="item"></span>
+        </div>
+      </div>
+    </div>
+    <div ui-view style="display:none;" ng-cloak></div>
+    <section class="tn-scripts tn-last-block">
+      <script src="//res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+      <script src="//inksci.com/xsn/views/app/reader/80610a.ng-tpl.min.js"></script>
+      <script type="text/javascript" src="//inksci.com/xsn/template/v5/booklet/comp/ng-tpl.js?host=b.xiumi.us&_ver=1504231223882"></script>
+      <script type="text/javascript" src="//inksci.com/xsn/template/v5/paper/comp/ng-tpl.js?host=b.xiumi.us&_ver=1504231224643"></script>
+      <script src="//inksci.com/xsn/scripts/app/reader/entries/booklet/ea3110.main.min.js"></script>
+    </section>
+  </body>
+</html>

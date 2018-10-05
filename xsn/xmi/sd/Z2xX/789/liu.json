@@ -1,0 +1,771 @@
+{
+  "version": "0.1",
+  "title": "教师节快乐 - 刘老师",
+  "desc": null,
+  "cover": "/xsn/stc/images/templates-assets/tpl-paper/image/2016-9-13-11.png?x-oss-process=style/xm",
+  "backgroundMusic": "/xsn/xmi/ua/Z2xX/a/wam-1.83MB.mp3",
+  "autoSlideInterval": 0,
+  "scene": "fs.vertical.paging",
+  "targetContext": "xiumi",
+  "pages": [
+    {
+      "_comp": {
+        "tplId": "booklet-cp:sys/pg-fs",
+        "style": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "backgroundImage": "url(/xsn/stc/images/templates-assets/tpl-paper/image/2016-9-13-11.png?x-oss-process=style/xm)",
+          "backgroundPosition": "50.0000% 50.0000%",
+          "backgroundRepeat": "no-repeat",
+          "backgroundSize": "cover"
+        },
+        "constraint": {
+          "mode": "board"
+        }
+      },
+      "layers": [
+        {
+          "_comp": {
+            "tplId": "booklet-cp:sys/ly-fs"
+          },
+          "comps": [
+            {
+              "_comp": {
+                "tplId": "paper-cp:image/img-autowidth",
+                "constraint": {
+                  "opMenu": {
+                    "crop-image-merged": true
+                  },
+                  "pose": {
+                    "resize": "h"
+                  }
+                },
+                "pose": {
+                  "position": "absolute",
+                  "width": "160.63%",
+                  "bottom": "10.42%",
+                  "right": "-30.63%"
+                },
+                "style": {
+                  "textAlign": "center",
+                  "marginTop": "10px",
+                  "marginBottom": "10px",
+                  "backgroundImage": null
+                },
+                "link": null,
+                "linkFrame": false,
+                "anim": null
+              },
+              "img1": {
+                "type": "image",
+                "src": "/xsn/stc/images/templates-assets/tpl-paper/image/2017-5-20-13.png",
+                "style": {
+                  "width": "60.00%",
+                  "tnYzkFontUsageId": null
+                },
+                "link": null,
+                "linkFrame": false,
+                "anim": null
+              }
+            },
+            {
+              "_comp": {
+                "tplId": "paper-cp:image/img-autowidth",
+                "constraint": {
+                  "opMenu": {
+                    "crop-image-merged": true
+                  },
+                  "pose": {
+                    "resize": "h"
+                  }
+                },
+                "pose": {
+                  "position": "absolute",
+                  "top": "-2.29%",
+                  "width": "184.06%",
+                  "left": "-43.43%"
+                },
+                "style": {
+                  "textAlign": "center",
+                  "marginTop": "10px",
+                  "marginBottom": "10px",
+                  "backgroundImage": null
+                },
+                "link": null,
+                "linkFrame": false,
+                "anim": null
+              },
+              "img1": {
+                "type": "image",
+                "src": "/xsn/stc/images/templates-assets/tpl-paper/image/2017-5-20-9.png",
+                "style": {
+                  "width": "50.00%",
+                  "tnYzkFontUsageId": null,
+                  "boxShadow": "#000000 0px 0px 0px"
+                },
+                "link": null,
+                "linkFrame": false,
+                "anim": null
+              }
+            },
+            {
+              "_comp": {
+                "constraint": {
+                  "enableFullImage": true,
+                  "opMenu": {
+                    "crop-image-merged": true
+                  },
+                  "pose": {
+                    "aspectRatio": 1
+                  }
+                },
+                "pose": {
+                  "width": "0.00%",
+                  "aspectRatio": "1",
+                  "position": "absolute",
+                  "left": "50.00%",
+                  "top": "40.00%",
+                  "height": "0.00%"
+                },
+                "style": {
+                  "backgroundImage": null
+                },
+                "tplId": "booklet-cp:baseware/cimg-only",
+                "link": null,
+                "linkFrame": false,
+                "anim": null
+              },
+              "cimg1": {
+                "type": "crop-image",
+                "src": "/xsn/stc/images/templates-assets/tpl-paper/image/2017-2-9-35.png",
+                "style": {
+                  "backgroundPosition": "center center",
+                  "backgroundRepeat": "no-repeat",
+                  "backgroundSize": "cover",
+                  "tnYzkFontUsageId": null
+                },
+                "constraint": {
+                  "changeViewPort": true
+                },
+                "link": null,
+                "linkFrame": false,
+                "anim": null
+              }
+            },
+            {
+              "_comp": {
+                "constraint": {
+                  "enableFullImage": true,
+                  "opMenu": {
+                    "crop-image-merged": true
+                  },
+                  "pose": {
+                    "aspectRatio": 1
+                  }
+                },
+                "pose": {
+                  "width": "45.99%",
+                  "aspectRatio": "1.1466666666666667",
+                  "position": "absolute",
+                  "height": "28.85%",
+                  "right": "-29.36%",
+                  "bottom": "-11.58%"
+                },
+                "style": {
+                  "backgroundImage": null
+                },
+                "tplId": "booklet-cp:baseware/cimg-only",
+                "anim": [
+                  {
+                    "animationName": "ent_moveInTop",
+                    "animationDuration": "1.5s",
+                    "animationDelay": "0s",
+                    "animationIterationCount": "1",
+                    "animationTimingFunction": "ease-in-out"
+                  }
+                ],
+                "link": null,
+                "linkFrame": false
+              },
+              "cimg1": {
+                "type": "crop-image",
+                "src": "/xsn/stc/images/templates-assets/tpl-paper/image/2017-2-9-20.png",
+                "style": {
+                  "backgroundPosition": "center center",
+                  "backgroundRepeat": "no-repeat",
+                  "backgroundSize": "cover",
+                  "boxShadow": "#000000 0px 0px 0px",
+                  "tnYzkFontUsageId": null
+                },
+                "constraint": {
+                  "changeViewPort": true
+                },
+                "link": null,
+                "linkFrame": false,
+                "anim": null
+              }
+            },
+            {
+              "_comp": {
+                "tplId": "booklet-cp:2016-3-25/13",
+                "constraint": {
+                  "pose": {},
+                  "opMenu": {}
+                },
+                "pose": {
+                  "height": "97.29%",
+                  "position": "absolute",
+                  "left": "3.74%",
+                  "top": "12.38%",
+                  "width": "92.19%"
+                },
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "paddingTop": "8px",
+                  "paddingBottom": "8px",
+                  "backgroundImage": null,
+                  "opacity": 0.45
+                },
+                "aux": {
+                  "bgc1": {
+                    "type": "color",
+                    "value": "rgb(147,55,29)"
+                  }
+                },
+                "link": null,
+                "linkFrame": false,
+                "anim": [
+                  {
+                    "animationName": "ent_pullUpIn",
+                    "animationDuration": "1.5s",
+                    "animationDelay": "0s",
+                    "animationIterationCount": "1",
+                    "animationTimingFunction": "ease-in-out"
+                  }
+                ]
+              }
+            },
+            {
+              "_comp": {
+                "tplId": "booklet-cp:2016-4-14/1",
+                "constraint": {
+                  "pose": {},
+                  "opMenu": {}
+                },
+                "pose": {
+                  "height": "81.46%",
+                  "position": "absolute",
+                  "top": "24.96%",
+                  "width": "83.44%",
+                  "right": "8.14%"
+                },
+                "style": {
+                  "width": "100%",
+                  "height": "100%",
+                  "paddingTop": "10px",
+                  "paddingBottom": "10px",
+                  "backgroundImage": null,
+                  "opacity": 0.93
+                },
+                "aux": {
+                  "bdc1": {
+                    "type": "color",
+                    "value": "transparent"
+                  },
+                  "bgc1": {
+                    "type": "color",
+                    "value": "#ffffff"
+                  }
+                },
+                "link": null,
+                "linkFrame": false,
+                "anim": [
+                  {
+                    "animationName": "ent_pullUpIn",
+                    "animationDuration": "1.5s",
+                    "animationDelay": "0.5s",
+                    "animationIterationCount": "1",
+                    "animationTimingFunction": "ease-in-out"
+                  }
+                ]
+              }
+            },
+            {
+              "_comp": {
+                "constraint": {
+                  "opMenu": {
+                    "text-merged": true
+                  },
+                  "pose": {
+                    "resize": "h"
+                  }
+                },
+                "pose": {
+                  "position": "absolute",
+                  "top": "17.509765625%",
+                  "width": "69.06%",
+                  "left": "15.166015625000002%"
+                },
+                "style": {
+                  "backgroundColor": "transparent",
+                  "backgroundImage": null
+                },
+                "tplId": "booklet-cp:baseware/txt-only-bg-2",
+                "link": null,
+                "linkFrame": false,
+                "anim": [
+                  {
+                    "animationName": "ent_zoomInBounce",
+                    "animationDuration": "1.5s",
+                    "animationDelay": "1s",
+                    "animationIterationCount": "1",
+                    "animationTimingFunction": "ease-in-out"
+                  }
+                ]
+              },
+              "txt1": {
+                "type": "text",
+                "text": "<p>教师节快乐</p>",
+                "style": {
+                  "color": "#ffffff",
+                  "fontSize": "200.0000%",
+                  "tnYzkFontUsageId": "text-53234-1481097800801",
+                  "tnYzkFont": 144
+                },
+                "link": null,
+                "linkFrame": false,
+                "anim": null,
+                "constraint": {}
+              }
+            },
+            {
+              "_comp": {
+                "constraint": {
+                  "enableFullImage": true,
+                  "opMenu": {
+                    "crop-image-merged": true
+                  },
+                  "pose": {}
+                },
+                "pose": {
+                  "width": "76.88%",
+                  "position": "absolute",
+                  "left": "-11.74%",
+                  "height": "46.46%",
+                  "bottom": "-0.01%"
+                },
+                "style": {
+                  "backgroundImage": null
+                },
+                "tplId": "booklet-cp:baseware/cimg-only",
+                "anim": [
+                  {
+                    "animationName": "ent_fadeIn",
+                    "animationDuration": "1.5s",
+                    "animationDelay": "1.2s",
+                    "animationIterationCount": "1",
+                    "animationTimingFunction": "ease-in-out"
+                  }
+                ],
+                "link": null,
+                "linkFrame": false
+              },
+              "cimg1": {
+                "type": "crop-image",
+                "src": "/xsn/stc/images/templates-assets/tpl-paper/image/2017-3-7-10.png",
+                "style": {
+                  "backgroundPosition": "center center",
+                  "backgroundRepeat": "no-repeat",
+                  "backgroundSize": "cover",
+                  "tnYzkFontUsageId": null
+                },
+                "constraint": {
+                  "changeViewPort": true
+                },
+                "link": null,
+                "linkFrame": false,
+                "anim": [
+                  {
+                    "animationName": "ent_rollingInCW",
+                    "animationDuration": "1.5s",
+                    "animationDelay": "0s",
+                    "animationIterationCount": "1",
+                    "animationTimingFunction": "ease-in-out"
+                  }
+                ]
+              }
+            },
+            {
+              "_comp": {
+                "constraint": {
+                  "enableFullImage": true,
+                  "opMenu": {
+                    "crop-image-merged": true
+                  },
+                  "pose": {}
+                },
+                "pose": {
+                  "width": "9.69%",
+                  "position": "absolute",
+                  "left": "40.874977111816406%",
+                  "height": "7.71%",
+                  "transform": "rotateZ(344.73deg)",
+                  "top": "54.90084330240885%"
+                },
+                "style": {
+                  "backgroundImage": null
+                },
+                "tplId": "booklet-cp:baseware/cimg-only",
+                "anim": [
+                  {
+                    "animationName": "ext_moveOutTopLeft",
+                    "animationDuration": "1.5s",
+                    "animationDelay": "0s",
+                    "animationIterationCount": "infinite",
+                    "animationTimingFunction": "ease-in-out"
+                  }
+                ],
+                "link": null,
+                "linkFrame": false
+              },
+              "cimg1": {
+                "type": "crop-image",
+                "src": "/xsn/stc/images/templates-assets/tpl-paper/image/2017-5-12-20.png",
+                "style": {
+                  "backgroundPosition": "center center",
+                  "backgroundRepeat": "no-repeat",
+                  "backgroundSize": "cover",
+                  "tnYzkFontUsageId": null
+                },
+                "constraint": {
+                  "changeViewPort": true
+                },
+                "link": null,
+                "linkFrame": false,
+                "anim": null
+              }
+            },
+            {
+              "_comp": {
+                "constraint": {
+                  "enableFullImage": true,
+                  "opMenu": {
+                    "crop-image-merged": true
+                  },
+                  "pose": {}
+                },
+                "pose": {
+                  "width": "3.75%",
+                  "position": "absolute",
+                  "left": "45.402183532714844%",
+                  "height": "2.92%",
+                  "transform": "rotateZ(28.21deg)",
+                  "top": "63.0328623453776%"
+                },
+                "style": {
+                  "backgroundImage": null
+                },
+                "tplId": "booklet-cp:baseware/cimg-only",
+                "link": null,
+                "linkFrame": false,
+                "anim": [
+                  {
+                    "animationName": "ext_moveOutTopLeft",
+                    "animationDuration": "1.5s",
+                    "animationDelay": "0.2s",
+                    "animationIterationCount": "infinite",
+                    "animationTimingFunction": "ease-in-out"
+                  }
+                ]
+              },
+              "cimg1": {
+                "type": "crop-image",
+                "src": "/xsn/stc/images/templates-assets/tpl-paper/image/2017-5-12-20.png",
+                "style": {
+                  "backgroundPosition": "center center",
+                  "backgroundRepeat": "no-repeat",
+                  "backgroundSize": "cover",
+                  "tnYzkFontUsageId": null
+                },
+                "constraint": {
+                  "changeViewPort": true
+                },
+                "link": null,
+                "linkFrame": false,
+                "anim": null
+              }
+            },
+            {
+              "_comp": {
+                "constraint": {
+                  "enableFullImage": true,
+                  "opMenu": {
+                    "crop-image-merged": true
+                  },
+                  "pose": {}
+                },
+                "pose": {
+                  "width": "3.13%",
+                  "position": "absolute",
+                  "left": "46.385841369628906%",
+                  "height": "2.29%",
+                  "transform": "rotateZ(2.36deg)",
+                  "top": "67.19765981038411%"
+                },
+                "style": {
+                  "backgroundImage": null
+                },
+                "tplId": "booklet-cp:baseware/cimg-only",
+                "link": null,
+                "linkFrame": false,
+                "anim": [
+                  {
+                    "animationName": "ext_moveOutTopLeft",
+                    "animationDuration": "1.5s",
+                    "animationDelay": "0.4s",
+                    "animationIterationCount": "infinite",
+                    "animationTimingFunction": "ease-in-out"
+                  }
+                ]
+              },
+              "cimg1": {
+                "type": "crop-image",
+                "src": "/xsn/stc/images/templates-assets/tpl-paper/image/2017-5-12-20.png",
+                "style": {
+                  "backgroundPosition": "center center",
+                  "backgroundRepeat": "no-repeat",
+                  "backgroundSize": "cover",
+                  "tnYzkFontUsageId": null
+                },
+                "constraint": {
+                  "changeViewPort": true
+                },
+                "link": null,
+                "linkFrame": false,
+                "anim": null
+              }
+            },
+            {
+              "_comp": {
+                "constraint": {
+                  "enableFullImage": true,
+                  "opMenu": {
+                    "crop-image-merged": true
+                  },
+                  "pose": {}
+                },
+                "pose": {
+                  "width": "4.69%",
+                  "position": "absolute",
+                  "height": "3.54%",
+                  "transform": "rotateZ(22.52deg)",
+                  "left": "50.03236770629883%",
+                  "top": "63.413537343343094%"
+                },
+                "style": {
+                  "backgroundImage": null
+                },
+                "tplId": "booklet-cp:baseware/cimg-only",
+                "link": null,
+                "linkFrame": false,
+                "anim": [
+                  {
+                    "animationName": "ext_moveOutTopLeft",
+                    "animationDuration": "1.5s",
+                    "animationDelay": "0.1s",
+                    "animationIterationCount": "infinite",
+                    "animationTimingFunction": "ease-in-out"
+                  }
+                ]
+              },
+              "cimg1": {
+                "type": "crop-image",
+                "src": "/xsn/stc/images/templates-assets/tpl-paper/image/2017-5-12-20.png",
+                "style": {
+                  "backgroundPosition": "center center",
+                  "backgroundRepeat": "no-repeat",
+                  "backgroundSize": "cover",
+                  "tnYzkFontUsageId": null
+                },
+                "constraint": {
+                  "changeViewPort": true
+                },
+                "link": null,
+                "linkFrame": false,
+                "anim": null
+              }
+            },
+            {
+              "_comp": {
+                "constraint": {
+                  "enableFullImage": true,
+                  "opMenu": {
+                    "crop-image-merged": true
+                  },
+                  "pose": {}
+                },
+                "pose": {
+                  "width": "5.63%",
+                  "position": "absolute",
+                  "left": "47.023868560791016%",
+                  "height": "4.58%",
+                  "transform": "rotateZ(324.07deg)",
+                  "top": "66.21863683064778%"
+                },
+                "style": {
+                  "backgroundImage": null
+                },
+                "tplId": "booklet-cp:baseware/cimg-only",
+                "anim": [
+                  {
+                    "animationName": "ext_moveOutBottom",
+                    "animationDuration": "1.5s",
+                    "animationDelay": "0s",
+                    "animationIterationCount": "infinite",
+                    "animationTimingFunction": "ease-in-out"
+                  }
+                ],
+                "link": null,
+                "linkFrame": false
+              },
+              "cimg1": {
+                "type": "crop-image",
+                "src": "/xsn/stc/images/templates-assets/tpl-paper/image/2017-5-12-20.png",
+                "style": {
+                  "backgroundPosition": "center center",
+                  "backgroundRepeat": "no-repeat",
+                  "backgroundSize": "cover",
+                  "tnYzkFontUsageId": null
+                },
+                "constraint": {
+                  "changeViewPort": true
+                },
+                "link": null,
+                "linkFrame": false,
+                "anim": null
+              }
+            },
+            {
+              "_comp": {
+                "constraint": {
+                  "enableFullImage": true,
+                  "opMenu": {
+                    "crop-image-merged": true
+                  },
+                  "pose": {}
+                },
+                "pose": {
+                  "width": "4.06%",
+                  "position": "absolute",
+                  "height": "3.13%",
+                  "left": "54.37499999999999%",
+                  "top": "71.48111979166667%"
+                },
+                "style": {
+                  "backgroundImage": null
+                },
+                "tplId": "booklet-cp:baseware/cimg-only",
+                "anim": [
+                  {
+                    "animationName": "ext_moveOutTopLeft",
+                    "animationDuration": "1.5s",
+                    "animationDelay": "0.2s",
+                    "animationIterationCount": "infinite",
+                    "animationTimingFunction": "ease-in-out"
+                  }
+                ],
+                "link": null,
+                "linkFrame": false
+              },
+              "cimg1": {
+                "type": "crop-image",
+                "src": "/xsn/stc/images/templates-assets/tpl-paper/image/2017-5-12-20.png",
+                "style": {
+                  "backgroundPosition": "center center",
+                  "backgroundRepeat": "no-repeat",
+                  "backgroundSize": "cover",
+                  "tnYzkFontUsageId": null
+                },
+                "constraint": {
+                  "changeViewPort": true
+                },
+                "link": null,
+                "linkFrame": false,
+                "anim": null
+              }
+            },
+            {
+              "_comp": {
+                "constraint": {
+                  "opMenu": {
+                    "text-merged": true
+                  },
+                  "pose": {
+                    "resize": "h"
+                  }
+                },
+                "pose": {
+                  "position": "absolute",
+                  "top": "31.48%",
+                  "width": "60.00%",
+                  "right": "18.32%"
+                },
+                "style": {
+                  "backgroundColor": "transparent",
+                  "backgroundImage": null,
+                  "fontSize": "100%"
+                },
+                "tplId": "booklet-cp:baseware/txt-only-bg-2",
+                "link": null,
+                "linkFrame": false,
+                "anim": [
+                  {
+                    "animationName": "ent_zoomInBounce",
+                    "animationDuration": "1.5s",
+                    "animationDelay": "0s",
+                    "animationIterationCount": "1",
+                    "animationTimingFunction": "ease-in-out"
+                  }
+                ]
+              },
+              "txt1": {
+                "type": "text",
+                "text": "<p>祝刘老师，教师节快乐，天天开心，感谢刘老师对我的帮助和指导，祝老师身体健康，工作顺利！&nbsp;<span style=\"letter-spacing: 0px; line-height: 1.6;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - 周新</span></p><p><br></p>",
+                "style": {
+                  "color": "rgb(130,56,33)",
+                  "fontSize": "150.0000%",
+                  "tnYzkFontUsageId": "text-80392-1481102390093",
+                  "textAlign": "justify",
+                  "tnYzkFont": 47205
+                },
+                "link": null,
+                "linkFrame": false,
+                "anim": null,
+                "constraint": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "displaySystemTitle": true,
+  "wx_link": "",
+  "wx_author": "",
+  "$appendix": {
+    "yzkFontFaces": {
+      "tn-yzk-fuid-text-53234-1481097800801": {
+        "tag": ".tn-yzk-fuid-text-53234-1481097800801",
+        "fontFamily": "TianZhend0aa1951a193de",
+        "fontFace": "@font-face {font-family: 'TianZhend0aa1951a193de';src: url('');src: url('?#iefix') format('embedded-opentype'),     url('//font.xiumi.us/webfonts/selector/103390/144/59b3938863debe70317c9bad.bmp') format('woff'),     url('') format('truetype'),     url('#TianZhen') format('svg');   }.tn-yzk-fuid-text-53234-1481097800801{font-family:'TianZhend0aa1951a193de' !important}"
+      },
+      "tn-yzk-fuid-text-80392-1481102390093": {
+        "tag": ".tn-yzk-fuid-text-80392-1481102390093",
+        "fontFamily": "momo_xinjiand0f3cdff0193de",
+        "fontFace": "@font-face {font-family: 'momo_xinjiand0f3cdff0193de';src: url('');src: url('?#iefix') format('embedded-opentype'),     url('//font.xiumi.us/webfonts/selector/103390/47205/59b4c16e63debe7a28bd624b.bmp') format('woff'),     url('') format('truetype'),     url('#momo_xinjian') format('svg');   }.tn-yzk-fuid-text-80392-1481102390093{font-family:'momo_xinjiand0f3cdff0193de' !important}"
+      }
+    },
+    "htmlForPreview": "",
+    "fragments": {}
+  }
+}
